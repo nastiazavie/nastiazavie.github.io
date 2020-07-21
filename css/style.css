@@ -1,0 +1,37 @@
+html,body,header,#intro{
+height:80%;
+margin: 0;
+padding: 0;
+}
+#intro{
+	background: url(../img/v-m.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+	box-sizing: border-box;
+}
+.top-nav-collapse{
+	background:  #1c1438;
+} 
+@media (max-width: 768px){
+	.navbar:not(.top-nav-collapse){
+	background: #24355c;
+	}	
+}
+.map-container{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+Custom map
+
+ .navbar-brand{
+	padding-right: 300px;
+}
