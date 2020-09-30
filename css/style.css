@@ -1,13 +1,13 @@
 html,body,header,#intro{
 height:80%;
-margin: 0;
-padding: 0;
+margin:0;
+padding:0;
 }
 #intro{
 	background: url(../img/v-m.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
-	box-sizing: border-box;
+	 box-sizing: border-box; 
 }
 .top-nav-collapse{
 	background:  #1c1438;
