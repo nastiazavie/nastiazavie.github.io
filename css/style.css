@@ -1,20 +1,37 @@
 html,body,header,#intro{
-height:80%;
+height:95%;
 margin:0;
 padding:0;
+font-family: 'Roboto', sans-serif;
 }
 #intro{
-	background: url(../img/v-m.jpg) no-repeat center center fixed;
+	background: url(../img/v-m.webp) no-repeat top center fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
 	 box-sizing: border-box; 
+	 text-align: left;
+	 text-size-adjust: initial;
+	 padding-left: 20%;
+	 
+}
+
+a{
+	color:#2E2E2E;
+
+}
+a:visited{
+	color:lightcoral ;
+
+}
+a:active{
+	color: lawngreen;
 }
 .top-nav-collapse{
 	background:  #1c1438;
 } 
 @media (max-width: 768px){
 	.navbar:not(.top-nav-collapse){
-	background: #24355c;
+	background: #41537e;
 	}	
 }
 .map-container{
